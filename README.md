@@ -1,4 +1,3 @@
-# Project_1_TDS
 # Seattle GitHub Users Analysis
 
 - **Scraping Approach**: I used the GitHub API to retrieve data on Seattle-based users with over 200 followers and their latest 500 public repositories.
