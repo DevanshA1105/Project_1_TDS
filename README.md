@@ -1,7 +1,7 @@
 # Seattle GitHub Users Analysis
 
-- **Scraping Approach**: I used the GitHub API to retrieve data on Seattle-based users with over 200 followers and their latest 500 public repositories.
-- **Insight**: The most followed users in Seattle have repositories with a high concentration in JavaScript, Python, and Go, revealing popular languages among influential developers.
+- **Scraping Approach**: I used the GitHub API to retrieve data on Seattle-based users with over 200 followers. I utilized Python's ```request``` and ```pandas``` libraries to scrape and save the data in the destined files.
+- **Insight**: The most followed users in Seattle have repositories with a high concentration in Ruby, Python, and Go, revealing popular languages among influential developers.
 - **Recommendation**: Developers aiming to expand their following should consider creating open-source repositories in these popular languages.
 
 ## Project Description
@@ -10,7 +10,7 @@ This project aims to provide insights into GitHub users in Seattle with a signif
 
 ## Data Collection
 
-Data was collected using the GitHub REST API (v3), focusing on users in Seattle with over 200 followers. Each user's profile and up to 500 of their most recently pushed repositories were retrieved. Two CSV files, `users.csv` and `repositories.csv`, were created, containing the users' details and their repository information, respectively.
+Data was collected using the GitHub REST API (v3), focusing on users in Seattle with over 200 followers. Two CSV files, `users.csv` and `repositories.csv`, were created, containing the users' details and their repository information, respectively.
 
 ## File Structure
 
